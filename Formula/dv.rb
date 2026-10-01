@@ -6,23 +6,23 @@ class Dv < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/DwieDave/dv/releases/download/v0.1.0/dv-0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "e378ff3f82e5bda1c8f2beeb51db9e29dc66f8fa8eea37badfe0a9cee6d35162"
+      url "https://github.com/DwieDave/dv/releases/download/v0.1.1/dv-0.1.1-aarch64-apple-darwin.tar.gz"
+      sha256 "a1a4ec3de22f65b6f8c247af2015fb968ccb13db10537eb89ceaa12bc822a29f"
     end
     on_intel do
-      url "https://github.com/DwieDave/dv/releases/download/v0.1.0/dv-0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "0cbd44c02b91773e90af6c94eb60e6056f6ec5ea96ba26974acd387fc15c2cdb"
+      url "https://github.com/DwieDave/dv/releases/download/v0.1.1/dv-0.1.1-x86_64-apple-darwin.tar.gz"
+      sha256 "0c8577121af2724202f9cb987693119b1d25a137b069fd8f1aea02c61f4497f3"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/DwieDave/dv/releases/download/v0.1.0/dv-0.1.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "a4acf6b6b226368e7c50ecb4ffd75902b4434125d69d2f8cd3e2451937a078f0"
+      url "https://github.com/DwieDave/dv/releases/download/v0.1.1/dv-0.1.1-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "b982a4677f3c2c81d8c2ab0378ab452a1344509a81a47ba3959eae856befecee"
     end
     on_intel do
-      url "https://github.com/DwieDave/dv/releases/download/v0.1.0/dv-0.1.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "bf6896d14a107a8ba930f0bdf724b3a8d4df3e6d7a913df484003fa09949211d"
+      url "https://github.com/DwieDave/dv/releases/download/v0.1.1/dv-0.1.1-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "93de5e0e182dd1c5a484bd7fd478eb68b9e715cd4a88019fabb72223a3554116"
     end
   end
 
